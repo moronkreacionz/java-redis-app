@@ -7,7 +7,7 @@ public class JavaRedisApp{
 		Jedis jedis = new Jedis("redis"); 
 
 		while(true) {
-		System.out.println("Serer is running: " + jedis.ping()); 
+			System.out.println("Serer is running: " + jedis.ping()); 
 		}
 	}
 }
