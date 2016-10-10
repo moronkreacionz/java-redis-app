@@ -1,0 +1,8 @@
+javaclient:
+    build: .
+    command: java JavaRedisApp
+    links:
+     - redis
+redis:
+    image: redis
+
