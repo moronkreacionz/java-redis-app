@@ -31,6 +31,10 @@ $ docker ps
 $ docker logs <containerid> 
 
 $ docker stop <containerid> 
+each ps which is running for redis and java client 
+or do docker compose stop command 
+
+$ docker-compose stop 
 since this is an infinite loop application for testing linking between docker containers using docker compose. 
 
 Hope this helps. !
